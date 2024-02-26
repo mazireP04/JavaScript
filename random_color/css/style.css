@@ -1,0 +1,39 @@
+
+*{
+    box-sizing: border-box;
+}
+
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98vw;
+    height: 97vh;
+}
+
+.panel{
+    width: 35%;
+    height: 15%;
+    background-color: white;
+    color: black;
+    box-shadow: 1px 1px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+}
+
+button{
+    background-color: black;
+    color: white;
+    width: 80%;
+    height: 35%;
+    border-radius: 1px;
+    border: none;
+}
+
+button:hover{
+    background-color: rgb(55, 55, 55);
+    cursor:pointer;
+}
+
